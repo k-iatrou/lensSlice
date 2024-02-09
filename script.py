@@ -32,3 +32,15 @@ cheapest_pizza = pizza_and_price[0]
 
 # priciest pizza
 priciest_pizza = pizza_and_price[-1]
+
+# removing anchovies from list
+pizza_and_price.pop()
+
+# adding new topping
+pizza_and_price = pizza_and_price + [2.5, "peppers"]
+
+#slicing out the 3 cheapest slices from the list
+three_cheapest = pizza_and_price[:3]
+
+# printing 3 cheapest slices
+print(three_cheapest)
