@@ -23,3 +23,12 @@ pizza_and_price = [
 ]
 
 print(pizza_and_price)
+
+# sorted the pizza and price list ascending
+pizza_and_price = sorted(pizza_and_price)
+
+# cheapest pizza
+cheapest_pizza = pizza_and_price[0]
+
+# priciest pizza
+priciest_pizza = pizza_and_price[-1]
